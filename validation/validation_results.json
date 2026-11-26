@@ -1,0 +1,492 @@
+{
+  "files": [
+    {
+      "file": "JavaClean.java",
+      "language": "java",
+      "expected": 0,
+      "found": 0,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0
+    },
+    {
+      "file": "JavaCodeSmells.java",
+      "language": "java",
+      "expected": 0,
+      "found": 0,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0
+    },
+    {
+      "file": "JavaVulnerable.java",
+      "language": "java",
+      "expected": 18,
+      "found": 17,
+      "tp": 17,
+      "fn": 1,
+      "fp": 0
+    },
+    {
+      "file": "py_clean.py",
+      "language": "python",
+      "expected": 0,
+      "found": 0,
+      "tp": 0,
+      "fn": 0,
+      "fp": 0
+    },
+    {
+      "file": "py_code_smells.py",
+      "language": "python",
+      "expected": 15,
+      "found": 15,
+      "tp": 15,
+      "fn": 0,
+      "fp": 0
+    },
+    {
+      "file": "py_vulnerable_web.py",
+      "language": "python",
+      "expected": 24,
+      "found": 23,
+      "tp": 23,
+      "fn": 1,
+      "fp": 0
+    }
+  ],
+  "metrics": [
+    {
+      "language": "all",
+      "agent": "Code Analysis Agent",
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "language": "all",
+      "agent": "Security Vulnerability Agent",
+      "tp": 40,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.952,
+      "f1": 0.975
+    },
+    {
+      "language": "all",
+      "agent": "all",
+      "tp": 55,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.965,
+      "f1": 0.982
+    },
+    {
+      "language": "java",
+      "agent": "Security Vulnerability Agent",
+      "tp": 17,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.944,
+      "f1": 0.971
+    },
+    {
+      "language": "python",
+      "agent": "Code Analysis Agent",
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "language": "python",
+      "agent": "Security Vulnerability Agent",
+      "tp": 23,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.958,
+      "f1": 0.979
+    }
+  ],
+  "by_title": [
+    {
+      "title": "Bare except",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Binds to All Interfaces",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "CSRF Protection Disabled",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Cross-Site Scripting (XSS)",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Dangerous eval/exec",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Debug Mode Enabled",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Deep Nesting",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Exposed Cloud Key / Private Key",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Hardcoded Secret",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "High Cyclomatic Complexity",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Information Exposure via Stack Trace",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Insecure Authentication",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Insecure Deserialization",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Insecure Randomness",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Insecure Temp File",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Large Class (God Class)",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Long Method",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Missing / Client-Controlled Access Check",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Missing docstring",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Mutable default argument",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "OS Command Injection",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Overly long lines",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Path Traversal",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Permissive CORS",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Possible Missing Authorization (IDOR)",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "SQL Injection",
+      "tp": 3,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.75
+    },
+    {
+      "title": "Sensitive Data in Logs",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Server-Side Request Forgery",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Swallowed exception",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "TLS Verification Disabled",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Too Many Parameters",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Trusting Client-Supplied Role",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Unresolved TODO/FIXME",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Unused import",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Use of global state",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Weak Cipher / ECB Mode",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Weak Hash Algorithm",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "Wildcard import",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "title": "XML External Entity (XXE)",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ],
+  "missed": [
+    {
+      "file": "JavaVulnerable.java",
+      "line": 26,
+      "title": "SQL Injection"
+    },
+    {
+      "file": "py_vulnerable_web.py",
+      "line": 37,
+      "title": "SQL Injection"
+    }
+  ],
+  "false_positives": [],
+  "warnings": [
+    "JavaClean.java: Code Analysis Agent failed (No module named 'javalang'), its labels were skipped",
+    "JavaCodeSmells.java: Code Analysis Agent failed (No module named 'javalang'), its labels were skipped",
+    "JavaVulnerable.java: Code Analysis Agent failed (No module named 'javalang'), its labels were skipped"
+  ],
+  "used_llm": false
+}
